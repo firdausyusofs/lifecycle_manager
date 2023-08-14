@@ -46,4 +46,7 @@ android {
 }
 
 dependencies {
+
+    implementation 'androidx.lifecycle:lifecycle-process:2.5.1'
+
 }
