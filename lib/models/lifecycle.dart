@@ -1,0 +1,1 @@
+enum Lifecycle { Foreground, Background, AppKilled }

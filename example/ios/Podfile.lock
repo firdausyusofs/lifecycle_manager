@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - lifecycle_manager (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - lifecycle_manager (from `.symlinks/plugins/lifecycle_manager/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  lifecycle_manager:
+    :path: ".symlinks/plugins/lifecycle_manager/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  lifecycle_manager: 6bdd4e79f0021c31c5b8be8d512914eceb060d5f
+
+PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
+
+COCOAPODS: 1.12.1
