@@ -24,10 +24,9 @@ class LifecycleManagerPlugin: FlutterPlugin, MethodCallHandler {
     lifecycleService = LifecycleService()
   }
 
-  override fun onDetachedFromEngine(@NonNull binding: FlutterPlugin.FlutterPluginBinding) {
-    channel.setMethodCallHandler(null)
-    channel = null
-  }
+//  override fun onDetachedFromEngine(@NonNull binding: FlutterPlugin.FlutterPluginBinding) {
+//    channel.setMethodCallHandler(null)
+//  }
 
   override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
     when(call.method) {
